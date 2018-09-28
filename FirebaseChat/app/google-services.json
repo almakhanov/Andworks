@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "173062806256",
+    "firebase_url": "https://fir-chat-cd8cd.firebaseio.com",
+    "project_id": "fir-chat-cd8cd",
+    "storage_bucket": "fir-chat-cd8cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173062806256:android:a2bceec442890937",
+        "android_client_info": {
+          "package_name": "kz.batana.firebase_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173062806256-7p3u1ccoa63hi3ldfmjdqkgb1nni51ja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2DJ1ecdIqOKRkvcg4ssq-HujAJAvbNOI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

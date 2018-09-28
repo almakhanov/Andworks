@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Movie Theater</string>
+    <string name="my_hello">Dolby Atmos!</string>
+    <string name="button">Watch</string>
+</resources>

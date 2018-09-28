@@ -1,0 +1,1070 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="921bfadc-fe21-430c-9edf-3a8b0199a785" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="BloothPrinterActivity.class" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/classes/com/RT_Printer/BluetoothPrinter/BloothPrinterActivity.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+              <folding>
+                <marker date="1368591842828" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1368591842828" expanded="true" signature="155:538" ph="..." />
+                <marker date="1368591842828" expanded="true" signature="1717:1863" ph="{...}" />
+                <marker date="1368591842828" expanded="true" signature="1755:1857" ph="{...}" />
+                <marker date="1368591842828" expanded="true" signature="1950:2228" ph="{...}" />
+                <marker date="1368591842828" expanded="true" signature="2028:2222" ph="{...}" />
+                <marker date="1368591842828" expanded="true" signature="2299:3698" ph="{...}" />
+                <marker date="1368591842828" expanded="true" signature="2337:3692" ph="{...}" />
+                <marker date="1368591842828" expanded="true" signature="3775:4020" ph="{...}" />
+                <marker date="1368591842828" expanded="true" signature="3813:4014" ph="{...}" />
+                <marker date="1368591842828" expanded="true" signature="4090:4432" ph="{...}" />
+                <marker date="1368591842828" expanded="true" signature="4128:4426" ph="{...}" />
+                <marker date="1368591842828" expanded="true" signature="4470:4477" ph="{}" />
+                <marker date="1368591842828" expanded="true" signature="4531:5118" ph="{...}" />
+                <marker date="1368591842828" expanded="true" signature="5153:6372" ph="{...}" />
+                <marker date="1368591842828" expanded="false" signature="6403:6414" ph=" { " />
+                <marker date="1368591842828" expanded="false" signature="6431:6437" ph=" }" />
+                <marker date="1368591842828" expanded="true" signature="6470:6542" ph="{...}" />
+                <marker date="1368591842828" expanded="true" signature="6626:7395" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="colors.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeviceListActivity.class" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bin/classes/com/RT_Printer/BluetoothPrinter/DeviceListActivity.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="74">
+              <caret line="109" column="32" lean-forward="false" selection-start-line="109" selection-start-column="32" selection-end-line="109" selection-end-column="32" />
+              <folding>
+                <marker date="1368591135453" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1368591135453" expanded="false" signature="155:791" ph="..." />
+                <marker date="1368591135453" expanded="true" signature="1254:1772" ph="{...}" />
+                <marker date="1368591135453" expanded="true" signature="1336:1766" ph="{...}" />
+                <marker date="1368591135453" expanded="true" signature="1846:2921" ph="{...}" />
+                <marker date="1368591135453" expanded="true" signature="1910:2915" ph="{...}" />
+                <marker date="1368591135453" expanded="true" signature="2956:2963" ph="{}" />
+                <marker date="1368591135453" expanded="true" signature="3020:5042" ph="{...}" />
+                <marker date="1368591135453" expanded="true" signature="3299:3457" ph="{...}" />
+                <marker date="1368591135453" expanded="true" signature="3341:3447" ph="{...}" />
+                <marker date="1368591135453" expanded="true" signature="5075:5255" ph="{...}" />
+                <marker date="1368591135453" expanded="true" signature="5288:5645" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrinterOptionActivity.class" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/classes/com/RT_Printer/BluetoothPrinter/PrinterOptionActivity.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3842">
+              <caret line="242" column="32" lean-forward="false" selection-start-line="242" selection-start-column="32" selection-end-line="242" selection-end-column="32" />
+              <folding>
+                <marker date="1368591135437" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1368591135437" expanded="false" signature="155:510" ph="..." />
+                <marker date="1368591135437" expanded="true" signature="931:1035" ph="{...}" />
+                <marker date="1368591135437" expanded="false" signature="968:983" ph=" { " />
+                <marker date="1368591135437" expanded="false" signature="1019:1029" ph=" }" />
+                <marker date="1368591135437" expanded="true" signature="1110:1681" ph="{...}" />
+                <marker date="1368591135437" expanded="true" signature="1148:1675" ph="{...}" />
+                <marker date="1368591135437" expanded="true" signature="1757:2208" ph="{...}" />
+                <marker date="1368591135437" expanded="true" signature="1795:2202" ph="{...}" />
+                <marker date="1368591135437" expanded="true" signature="2288:3066" ph="{...}" />
+                <marker date="1368591135437" expanded="true" signature="2326:3060" ph="{...}" />
+                <marker date="1368591135437" expanded="true" signature="3143:9087" ph="{...}" />
+                <marker date="1368591135437" expanded="true" signature="3181:9081" ph="{...}" />
+                <marker date="1368591135437" expanded="true" signature="9163:11766" ph="{...}" />
+                <marker date="1368591135437" expanded="true" signature="9201:11760" ph="{...}" />
+                <marker date="1368591135437" expanded="true" signature="11804:11811" ph="{}" />
+                <marker date="1368591135437" expanded="true" signature="11865:11987" ph="{...}" />
+                <marker date="1368591135437" expanded="false" signature="12018:12029" ph=" { " />
+                <marker date="1368591135437" expanded="false" signature="12046:12052" ph=" }" />
+                <marker date="1368591135437" expanded="true" signature="12087:13080" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="R.class" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/classes/com/RT_Printer/BluetoothPrinter/R.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1368591135453" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1368591135453" expanded="true" signature="186:193" ph="{}" />
+                <marker date="1368591135453" expanded="true" signature="230:271" ph="{...}" />
+                <marker date="1368591135453" expanded="true" signature="254:265" ph="{}" />
+                <marker date="1368591135453" expanded="true" signature="309:2195" ph="{...}" />
+                <marker date="1368591135453" expanded="true" signature="2178:2189" ph="{}" />
+                <marker date="1368591135453" expanded="true" signature="2233:2337" ph="{...}" />
+                <marker date="1368591135453" expanded="true" signature="2320:2331" ph="{}" />
+                <marker date="1368591135453" expanded="true" signature="2378:2643" ph="{...}" />
+                <marker date="1368591135453" expanded="true" signature="2626:2637" ph="{}" />
+                <marker date="1368591135453" expanded="true" signature="2678:4599" ph="{...}" />
+                <marker date="1368591135453" expanded="true" signature="4582:4593" ph="{}" />
+                <marker date="1368591135453" expanded="true" signature="4638:5035" ph="{...}" />
+                <marker date="1368591135453" expanded="true" signature="5018:5029" ph="{}" />
+                <marker date="1368591135453" expanded="true" signature="5074:10908" ph="{...}" />
+                <marker date="1368591135453" expanded="true" signature="10891:10902" ph="{}" />
+                <marker date="1368591135453" expanded="true" signature="10946:11103" ph="{...}" />
+                <marker date="1368591135453" expanded="true" signature="11086:11097" ph="{}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1411">
+              <caret line="83" column="41" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="93" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="printer_option.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/printer_option.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Utils.class" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/classes/com/RT_Printer/BluetoothPrinter/util/Utils.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1581">
+              <caret line="109" column="31" lean-forward="false" selection-start-line="109" selection-start-column="31" selection-end-line="109" selection-end-column="31" />
+              <folding>
+                <marker date="1368591135390" expanded="true" signature="0:104" ph="/.../" />
+                <marker date="1368591135390" expanded="false" signature="160:622" ph="..." />
+                <marker date="1368591135390" expanded="true" signature="664:671" ph="{}" />
+                <marker date="1368591135390" expanded="true" signature="737:792" ph="{...}" />
+                <marker date="1368591135390" expanded="true" signature="843:1003" ph="{...}" />
+                <marker date="1368591135390" expanded="true" signature="1052:1144" ph="{...}" />
+                <marker date="1368591135390" expanded="true" signature="1205:3557" ph="{...}" />
+                <marker date="1368591135390" expanded="true" signature="3603:4315" ph="{...}" />
+                <marker date="1368591135390" expanded="true" signature="4387:5189" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DateString.class" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/classes/com/RT_Printer/BluetoothPrinter/util/DateString.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1368591135390" expanded="true" signature="0:104" ph="/.../" />
+                <marker date="1368591135390" expanded="false" signature="160:209" ph="..." />
+                <marker date="1368591135390" expanded="true" signature="261:268" ph="{}" />
+                <marker date="1368591135390" expanded="true" signature="309:482" ph="{...}" />
+                <marker date="1368591135390" expanded="true" signature="521:707" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BluetoothPrinter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BluetoothPrinter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BluetoothPrinter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BluetoothPrinter" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BluetoothPrinter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BluetoothPrinter" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BluetoothPrinter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BluetoothPrinter" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BluetoothPrinter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BluetoothPrinter" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="RT_Printer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BluetoothPrinter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BluetoothPrinter" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="RT_Printer" type="462c0819:PsiDirectoryNode" />
+              <item name="BluetoothPrinter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BluetoothPrinter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BluetoothPrinter" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="RT_Printer" type="462c0819:PsiDirectoryNode" />
+              <item name="BluetoothPrinter" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BluetoothPrinter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BluetoothPrinter" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+              <item name="dexedLibs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BluetoothPrinter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BluetoothPrinter" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BluetoothPrinter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BluetoothPrinter" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BluetoothPrinter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BluetoothPrinter" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="values" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BluetoothPrinter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BluetoothPrinter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BluetoothPrinter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BluetoothPrinter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BluetoothPrinter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BluetoothPrinter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="RT_Printer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BluetoothPrinter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BluetoothPrinter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="RT_Printer" type="462c0819:PsiDirectoryNode" />
+              <item name="BluetoothPrinter" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="C:/Android" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PrinterApp" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="921bfadc-fe21-430c-9edf-3a8b0199a785" name="Default" comment="" />
+      <created>1536672058458</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536672058458</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34039333" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/bin/classes/com/RT_Printer/BluetoothPrinter/BloothPrinterActivity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding>
+            <marker date="1368591842828" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1368591842828" expanded="true" signature="155:538" ph="..." />
+            <marker date="1368591842828" expanded="true" signature="1717:1863" ph="{...}" />
+            <marker date="1368591842828" expanded="true" signature="1755:1857" ph="{...}" />
+            <marker date="1368591842828" expanded="true" signature="1950:2228" ph="{...}" />
+            <marker date="1368591842828" expanded="true" signature="2028:2222" ph="{...}" />
+            <marker date="1368591842828" expanded="true" signature="2299:3698" ph="{...}" />
+            <marker date="1368591842828" expanded="true" signature="2337:3692" ph="{...}" />
+            <marker date="1368591842828" expanded="true" signature="3775:4020" ph="{...}" />
+            <marker date="1368591842828" expanded="true" signature="3813:4014" ph="{...}" />
+            <marker date="1368591842828" expanded="true" signature="4090:4432" ph="{...}" />
+            <marker date="1368591842828" expanded="true" signature="4128:4426" ph="{...}" />
+            <marker date="1368591842828" expanded="true" signature="4470:4477" ph="{}" />
+            <marker date="1368591842828" expanded="true" signature="4531:5118" ph="{...}" />
+            <marker date="1368591842828" expanded="true" signature="5153:6372" ph="{...}" />
+            <marker date="1368591842828" expanded="false" signature="6403:6414" ph=" { " />
+            <marker date="1368591842828" expanded="false" signature="6431:6437" ph=" }" />
+            <marker date="1368591842828" expanded="true" signature="6470:6542" ph="{...}" />
+            <marker date="1368591842828" expanded="true" signature="6626:7395" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/classes/com/RT_Printer/BluetoothPrinter/PrinterOptionActivity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3842">
+          <caret line="242" column="32" lean-forward="false" selection-start-line="242" selection-start-column="32" selection-end-line="242" selection-end-column="32" />
+          <folding>
+            <marker date="1368591135437" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1368591135437" expanded="false" signature="155:510" ph="..." />
+            <marker date="1368591135437" expanded="true" signature="931:1035" ph="{...}" />
+            <marker date="1368591135437" expanded="false" signature="968:983" ph=" { " />
+            <marker date="1368591135437" expanded="false" signature="1019:1029" ph=" }" />
+            <marker date="1368591135437" expanded="true" signature="1110:1681" ph="{...}" />
+            <marker date="1368591135437" expanded="true" signature="1148:1675" ph="{...}" />
+            <marker date="1368591135437" expanded="true" signature="1757:2208" ph="{...}" />
+            <marker date="1368591135437" expanded="true" signature="1795:2202" ph="{...}" />
+            <marker date="1368591135437" expanded="true" signature="2288:3066" ph="{...}" />
+            <marker date="1368591135437" expanded="true" signature="2326:3060" ph="{...}" />
+            <marker date="1368591135437" expanded="true" signature="3143:9087" ph="{...}" />
+            <marker date="1368591135437" expanded="true" signature="3181:9081" ph="{...}" />
+            <marker date="1368591135437" expanded="true" signature="9163:11766" ph="{...}" />
+            <marker date="1368591135437" expanded="true" signature="9201:11760" ph="{...}" />
+            <marker date="1368591135437" expanded="true" signature="11804:11811" ph="{}" />
+            <marker date="1368591135437" expanded="true" signature="11865:11987" ph="{...}" />
+            <marker date="1368591135437" expanded="false" signature="12018:12029" ph=" { " />
+            <marker date="1368591135437" expanded="false" signature="12046:12052" ph=" }" />
+            <marker date="1368591135437" expanded="true" signature="12087:13080" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/classes/com/RT_Printer/BluetoothPrinter/R.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1368591135453" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1368591135453" expanded="true" signature="186:193" ph="{}" />
+            <marker date="1368591135453" expanded="true" signature="230:271" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="254:265" ph="{}" />
+            <marker date="1368591135453" expanded="true" signature="309:2195" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="2178:2189" ph="{}" />
+            <marker date="1368591135453" expanded="true" signature="2233:2337" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="2320:2331" ph="{}" />
+            <marker date="1368591135453" expanded="true" signature="2378:2643" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="2626:2637" ph="{}" />
+            <marker date="1368591135453" expanded="true" signature="2678:4599" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="4582:4593" ph="{}" />
+            <marker date="1368591135453" expanded="true" signature="4638:5035" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="5018:5029" ph="{}" />
+            <marker date="1368591135453" expanded="true" signature="5074:10908" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="10891:10902" ph="{}" />
+            <marker date="1368591135453" expanded="true" signature="10946:11103" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="11086:11097" ph="{}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1411">
+          <caret line="83" column="41" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="93" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/printer_option.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/classes/com/RT_Printer/BluetoothPrinter/util/Utils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1581">
+          <caret line="109" column="31" lean-forward="false" selection-start-line="109" selection-start-column="31" selection-end-line="109" selection-end-column="31" />
+          <folding>
+            <marker date="1368591135390" expanded="true" signature="0:104" ph="/.../" />
+            <marker date="1368591135390" expanded="false" signature="160:622" ph="..." />
+            <marker date="1368591135390" expanded="true" signature="664:671" ph="{}" />
+            <marker date="1368591135390" expanded="true" signature="737:792" ph="{...}" />
+            <marker date="1368591135390" expanded="true" signature="843:1003" ph="{...}" />
+            <marker date="1368591135390" expanded="true" signature="1052:1144" ph="{...}" />
+            <marker date="1368591135390" expanded="true" signature="1205:3557" ph="{...}" />
+            <marker date="1368591135390" expanded="true" signature="3603:4315" ph="{...}" />
+            <marker date="1368591135390" expanded="true" signature="4387:5189" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/classes/com/RT_Printer/BluetoothPrinter/util/DateString.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1368591135390" expanded="true" signature="0:104" ph="/.../" />
+            <marker date="1368591135390" expanded="false" signature="160:209" ph="..." />
+            <marker date="1368591135390" expanded="true" signature="261:268" ph="{}" />
+            <marker date="1368591135390" expanded="true" signature="309:482" ph="{...}" />
+            <marker date="1368591135390" expanded="true" signature="521:707" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/classes/com/RT_Printer/BluetoothPrinter/DeviceListActivity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1564">
+          <caret line="113" column="9" lean-forward="false" selection-start-line="113" selection-start-column="9" selection-end-line="113" selection-end-column="9" />
+          <folding>
+            <marker date="1368591135453" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1368591135453" expanded="false" signature="155:791" ph="..." />
+            <marker date="1368591135453" expanded="true" signature="1254:1772" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="1336:1766" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="1846:2921" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="1910:2915" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="2956:2963" ph="{}" />
+            <marker date="1368591135453" expanded="true" signature="3020:5042" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="3299:3457" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="3341:3447" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="5075:5255" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="5288:5645" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/classes/com/RT_Printer/BluetoothPrinter/BloothPrinterActivity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1368591842828" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1368591842828" expanded="true" signature="155:538" ph="..." />
+            <marker date="1368591842828" expanded="true" signature="1717:1863" ph="{...}" />
+            <marker date="1368591842828" expanded="true" signature="1755:1857" ph="{...}" />
+            <marker date="1368591842828" expanded="true" signature="1950:2228" ph="{...}" />
+            <marker date="1368591842828" expanded="true" signature="2028:2222" ph="{...}" />
+            <marker date="1368591842828" expanded="true" signature="2299:3698" ph="{...}" />
+            <marker date="1368591842828" expanded="true" signature="2337:3692" ph="{...}" />
+            <marker date="1368591842828" expanded="true" signature="3775:4020" ph="{...}" />
+            <marker date="1368591842828" expanded="true" signature="3813:4014" ph="{...}" />
+            <marker date="1368591842828" expanded="true" signature="4090:4432" ph="{...}" />
+            <marker date="1368591842828" expanded="true" signature="4128:4426" ph="{...}" />
+            <marker date="1368591842828" expanded="true" signature="4470:4477" ph="{}" />
+            <marker date="1368591842828" expanded="true" signature="4531:5118" ph="{...}" />
+            <marker date="1368591842828" expanded="true" signature="5153:6372" ph="{...}" />
+            <marker date="1368591842828" expanded="false" signature="6403:6414" ph=" { " />
+            <marker date="1368591842828" expanded="false" signature="6431:6437" ph=" }" />
+            <marker date="1368591842828" expanded="true" signature="6470:6542" ph="{...}" />
+            <marker date="1368591842828" expanded="true" signature="6626:7395" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/classes/com/RT_Printer/BluetoothPrinter/BuildConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/classes/com/RT_Printer/BluetoothPrinter/DeviceListActivity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1368591135453" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1368591135453" expanded="false" signature="155:791" ph="..." />
+            <marker date="1368591135453" expanded="true" signature="1254:1772" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="1336:1766" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="1846:2921" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="1910:2915" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="2956:2963" ph="{}" />
+            <marker date="1368591135453" expanded="true" signature="3020:5042" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="3299:3457" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="3341:3447" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="5075:5255" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="5288:5645" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/classes/com/RT_Printer/BluetoothPrinter/PrinterOptionActivity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1368591135437" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1368591135437" expanded="false" signature="155:510" ph="..." />
+            <marker date="1368591135437" expanded="true" signature="931:1035" ph="{...}" />
+            <marker date="1368591135437" expanded="false" signature="968:983" ph=" { " />
+            <marker date="1368591135437" expanded="false" signature="1019:1029" ph=" }" />
+            <marker date="1368591135437" expanded="true" signature="1110:1681" ph="{...}" />
+            <marker date="1368591135437" expanded="true" signature="1148:1675" ph="{...}" />
+            <marker date="1368591135437" expanded="true" signature="1757:2208" ph="{...}" />
+            <marker date="1368591135437" expanded="true" signature="1795:2202" ph="{...}" />
+            <marker date="1368591135437" expanded="true" signature="2288:3066" ph="{...}" />
+            <marker date="1368591135437" expanded="true" signature="2326:3060" ph="{...}" />
+            <marker date="1368591135437" expanded="true" signature="3143:9087" ph="{...}" />
+            <marker date="1368591135437" expanded="true" signature="3181:9081" ph="{...}" />
+            <marker date="1368591135437" expanded="true" signature="9163:11766" ph="{...}" />
+            <marker date="1368591135437" expanded="true" signature="9201:11760" ph="{...}" />
+            <marker date="1368591135437" expanded="true" signature="11804:11811" ph="{}" />
+            <marker date="1368591135437" expanded="true" signature="11865:11987" ph="{...}" />
+            <marker date="1368591135437" expanded="false" signature="12018:12029" ph=" { " />
+            <marker date="1368591135437" expanded="false" signature="12046:12052" ph=" }" />
+            <marker date="1368591135437" expanded="true" signature="12087:13080" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/classes/com/RT_Printer/BluetoothPrinter/R.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1368591135453" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1368591135453" expanded="true" signature="186:193" ph="{}" />
+            <marker date="1368591135453" expanded="true" signature="230:271" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="254:265" ph="{}" />
+            <marker date="1368591135453" expanded="true" signature="309:2195" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="2178:2189" ph="{}" />
+            <marker date="1368591135453" expanded="true" signature="2233:2337" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="2320:2331" ph="{}" />
+            <marker date="1368591135453" expanded="true" signature="2378:2643" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="2626:2637" ph="{}" />
+            <marker date="1368591135453" expanded="true" signature="2678:4599" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="4582:4593" ph="{}" />
+            <marker date="1368591135453" expanded="true" signature="4638:5035" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="5018:5029" ph="{}" />
+            <marker date="1368591135453" expanded="true" signature="5074:10908" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="10891:10902" ph="{}" />
+            <marker date="1368591135453" expanded="true" signature="10946:11103" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="11086:11097" ph="{}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/BluetoothPrinter.apk">
+      <provider selected="true" editor-type-id="apk-viewer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/RT_Printer/BluetoothPrinter/BloothPrinterActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/RT_Printer/BluetoothPrinter/DeviceListActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/RT_Printer/BluetoothPrinter/PrinterOptionActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/classes/com/RT_Printer/BluetoothPrinter/BuildConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/BluetoothPrinter.apk">
+      <provider selected="true" editor-type-id="apk-viewer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/RT_Printer/BluetoothPrinter/BloothPrinterActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/RT_Printer/BluetoothPrinter/DeviceListActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/RT_Printer/BluetoothPrinter/PrinterOptionActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4363">
+          <caret line="31" column="48" lean-forward="false" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="70" column="23" lean-forward="true" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1411">
+          <caret line="83" column="41" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="93" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/printer_option.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/classes/com/RT_Printer/BluetoothPrinter/util/DateString.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1368591135390" expanded="true" signature="0:104" ph="/.../" />
+            <marker date="1368591135390" expanded="false" signature="160:209" ph="..." />
+            <marker date="1368591135390" expanded="true" signature="261:268" ph="{}" />
+            <marker date="1368591135390" expanded="true" signature="309:482" ph="{...}" />
+            <marker date="1368591135390" expanded="true" signature="521:707" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/classes/com/RT_Printer/BluetoothPrinter/util/Utils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1581">
+          <caret line="109" column="31" lean-forward="false" selection-start-line="109" selection-start-column="31" selection-end-line="109" selection-end-column="31" />
+          <folding>
+            <marker date="1368591135390" expanded="true" signature="0:104" ph="/.../" />
+            <marker date="1368591135390" expanded="false" signature="160:622" ph="..." />
+            <marker date="1368591135390" expanded="true" signature="664:671" ph="{}" />
+            <marker date="1368591135390" expanded="true" signature="737:792" ph="{...}" />
+            <marker date="1368591135390" expanded="true" signature="843:1003" ph="{...}" />
+            <marker date="1368591135390" expanded="true" signature="1052:1144" ph="{...}" />
+            <marker date="1368591135390" expanded="true" signature="1205:3557" ph="{...}" />
+            <marker date="1368591135390" expanded="true" signature="3603:4315" ph="{...}" />
+            <marker date="1368591135390" expanded="true" signature="4387:5189" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/classes/com/RT_Printer/BluetoothPrinter/BloothPrinterActivity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding>
+            <marker date="1368591842828" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1368591842828" expanded="true" signature="155:538" ph="..." />
+            <marker date="1368591842828" expanded="true" signature="1717:1863" ph="{...}" />
+            <marker date="1368591842828" expanded="true" signature="1755:1857" ph="{...}" />
+            <marker date="1368591842828" expanded="true" signature="1950:2228" ph="{...}" />
+            <marker date="1368591842828" expanded="true" signature="2028:2222" ph="{...}" />
+            <marker date="1368591842828" expanded="true" signature="2299:3698" ph="{...}" />
+            <marker date="1368591842828" expanded="true" signature="2337:3692" ph="{...}" />
+            <marker date="1368591842828" expanded="true" signature="3775:4020" ph="{...}" />
+            <marker date="1368591842828" expanded="true" signature="3813:4014" ph="{...}" />
+            <marker date="1368591842828" expanded="true" signature="4090:4432" ph="{...}" />
+            <marker date="1368591842828" expanded="true" signature="4128:4426" ph="{...}" />
+            <marker date="1368591842828" expanded="true" signature="4470:4477" ph="{}" />
+            <marker date="1368591842828" expanded="true" signature="4531:5118" ph="{...}" />
+            <marker date="1368591842828" expanded="true" signature="5153:6372" ph="{...}" />
+            <marker date="1368591842828" expanded="false" signature="6403:6414" ph=" { " />
+            <marker date="1368591842828" expanded="false" signature="6431:6437" ph=" }" />
+            <marker date="1368591842828" expanded="true" signature="6470:6542" ph="{...}" />
+            <marker date="1368591842828" expanded="true" signature="6626:7395" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/classes/com/RT_Printer/BluetoothPrinter/R.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1368591135453" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1368591135453" expanded="true" signature="186:193" ph="{}" />
+            <marker date="1368591135453" expanded="true" signature="230:271" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="254:265" ph="{}" />
+            <marker date="1368591135453" expanded="true" signature="309:2195" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="2178:2189" ph="{}" />
+            <marker date="1368591135453" expanded="true" signature="2233:2337" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="2320:2331" ph="{}" />
+            <marker date="1368591135453" expanded="true" signature="2378:2643" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="2626:2637" ph="{}" />
+            <marker date="1368591135453" expanded="true" signature="2678:4599" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="4582:4593" ph="{}" />
+            <marker date="1368591135453" expanded="true" signature="4638:5035" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="5018:5029" ph="{}" />
+            <marker date="1368591135453" expanded="true" signature="5074:10908" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="10891:10902" ph="{}" />
+            <marker date="1368591135453" expanded="true" signature="10946:11103" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="11086:11097" ph="{}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/classes/com/RT_Printer/BluetoothPrinter/PrinterOptionActivity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3842">
+          <caret line="242" column="32" lean-forward="false" selection-start-line="242" selection-start-column="32" selection-end-line="242" selection-end-column="32" />
+          <folding>
+            <marker date="1368591135437" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1368591135437" expanded="false" signature="155:510" ph="..." />
+            <marker date="1368591135437" expanded="true" signature="931:1035" ph="{...}" />
+            <marker date="1368591135437" expanded="false" signature="968:983" ph=" { " />
+            <marker date="1368591135437" expanded="false" signature="1019:1029" ph=" }" />
+            <marker date="1368591135437" expanded="true" signature="1110:1681" ph="{...}" />
+            <marker date="1368591135437" expanded="true" signature="1148:1675" ph="{...}" />
+            <marker date="1368591135437" expanded="true" signature="1757:2208" ph="{...}" />
+            <marker date="1368591135437" expanded="true" signature="1795:2202" ph="{...}" />
+            <marker date="1368591135437" expanded="true" signature="2288:3066" ph="{...}" />
+            <marker date="1368591135437" expanded="true" signature="2326:3060" ph="{...}" />
+            <marker date="1368591135437" expanded="true" signature="3143:9087" ph="{...}" />
+            <marker date="1368591135437" expanded="true" signature="3181:9081" ph="{...}" />
+            <marker date="1368591135437" expanded="true" signature="9163:11766" ph="{...}" />
+            <marker date="1368591135437" expanded="true" signature="9201:11760" ph="{...}" />
+            <marker date="1368591135437" expanded="true" signature="11804:11811" ph="{}" />
+            <marker date="1368591135437" expanded="true" signature="11865:11987" ph="{...}" />
+            <marker date="1368591135437" expanded="false" signature="12018:12029" ph=" { " />
+            <marker date="1368591135437" expanded="false" signature="12046:12052" ph=" }" />
+            <marker date="1368591135437" expanded="true" signature="12087:13080" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/classes/com/RT_Printer/BluetoothPrinter/DeviceListActivity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="109" column="32" lean-forward="false" selection-start-line="109" selection-start-column="32" selection-end-line="109" selection-end-column="32" />
+          <folding>
+            <marker date="1368591135453" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1368591135453" expanded="false" signature="155:791" ph="..." />
+            <marker date="1368591135453" expanded="true" signature="1254:1772" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="1336:1766" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="1846:2921" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="1910:2915" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="2956:2963" ph="{}" />
+            <marker date="1368591135453" expanded="true" signature="3020:5042" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="3299:3457" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="3341:3447" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="5075:5255" ph="{...}" />
+            <marker date="1368591135453" expanded="true" signature="5288:5645" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
