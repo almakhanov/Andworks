@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1000609041470",
+    "firebase_url": "https://beautysoft-81190.firebaseio.com",
+    "project_id": "beautysoft-81190",
+    "storage_bucket": "beautysoft-81190.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000609041470:android:61586b45427aceda",
+        "android_client_info": {
+          "package_name": "kz.batana.beautysoft"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000609041470-o4eh5a0tp2bootki9ss6boqt5u5pg0gn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZGftnmTjonNGIMH3uxJJTul9XliVkWPA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

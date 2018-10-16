@@ -1,7 +1,7 @@
 package kz.batana.khanproject.audio_list
 
 import io.reactivex.Flowable
-import kz.batana.khanproject.AudioObject
+import kz.batana.khanproject.entity.AudioObject
 import kz.darlogistics.courier.core.util.IPresenter
 import kz.darlogistics.courier.core.util.IView
 

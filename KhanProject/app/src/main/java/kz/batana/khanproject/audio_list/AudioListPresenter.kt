@@ -1,7 +1,7 @@
 package kz.batana.khanproject.audio_list
 
 import android.annotation.SuppressLint
-import kz.batana.khanproject.AudioObject
+import kz.batana.khanproject.entity.AudioObject
 import kz.batana.khanproject.Logger
 import kz.darlogistics.courier.core.util.BasePresenter
 

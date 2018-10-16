@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">XAH</string>
     <string name="list_title">Audio List</string>
+    <string name="fio_input_text">Фамилия Имя Отчество</string>
+    <string name="fio_dialog_positive_button">Сохранить</string>
+    <string name="fio_dialog_neutral_button">Отмена</string>
+    <string name="fio_dialog_title">Диалог для сохранения</string>
+    <string name="fio_dialog_subtitle">Напишите автора</string>
 </resources>

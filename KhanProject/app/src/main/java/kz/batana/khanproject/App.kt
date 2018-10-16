@@ -17,7 +17,6 @@ class App : Application() {
     override fun onCreate() {
         super.onCreate()
         Logger.msg("accepted", "App")
-
         startKoin(this, appModules)
     }
 

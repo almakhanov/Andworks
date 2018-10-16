@@ -9,6 +9,10 @@ package kz.batana.khanproject
 import android.arch.persistence.room.Room
 import android.content.Context
 import kz.batana.khanproject.audio_list.audioListModule
+import kz.batana.khanproject.entity.AudioDB
+import kz.batana.khanproject.main.MainContract
+import kz.batana.khanproject.main.MainPresenter
+import kz.batana.khanproject.main.MainRepository
 import org.koin.android.ext.koin.androidContext
 import org.koin.dsl.module.Module
 import org.koin.dsl.module.module
@@ -32,7 +36,7 @@ val roomModule = module {
     single { getAppDB(androidContext()).audioDao() }
 }
 
-fun getAppDB(context: Context) : AudioDB{
+fun getAppDB(context: Context) : AudioDB {
     return Room.databaseBuilder(context, AudioDB::class.java, "khan_project2")
             .allowMainThreadQueries()
             .build()
