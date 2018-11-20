@@ -1,5 +1,6 @@
 package kz.batana.firebase_chat.services
 
+import android.util.Log
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.iid.FirebaseInstanceId
 import com.google.firebase.iid.FirebaseInstanceIdService
@@ -10,6 +11,8 @@ class MyFirebaseInstanceIDService : FirebaseInstanceIdService() {
 
     override fun onTokenRefresh() {
         val newRegistrationToken = FirebaseInstanceId.getInstance().token
+
+        Log.d("accepted", newRegistrationToken)
 
         if (FirebaseAuth.getInstance().currentUser != null)
             addTokenToFirestore(newRegistrationToken)

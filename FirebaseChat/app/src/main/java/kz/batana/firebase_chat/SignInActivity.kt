@@ -4,9 +4,11 @@ import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import android.util.Log
 import com.firebase.ui.auth.AuthUI
 import com.firebase.ui.auth.ErrorCodes
 import com.firebase.ui.auth.IdpResponse
+import com.google.firebase.iid.FirebaseInstanceId
 import kotlinx.android.synthetic.main.activity_sign_in.*
 import kz.batana.firebase_chat.util.FirestoreUtil
 import org.jetbrains.anko.clearTask
@@ -28,6 +30,7 @@ class SignInActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_in)
+        Log.d("accepted", FirebaseInstanceId.getInstance().token)
 
         account_sign_in.setOnClickListener{
             val intent = AuthUI.getInstance().createSignInIntentBuilder()

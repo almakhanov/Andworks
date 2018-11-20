@@ -5,6 +5,7 @@ import android.support.design.widget.BottomNavigationView
 import android.support.v4.app.Fragment
 import android.support.v7.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_root.*
+import kz.batana.beautysoft.camera.CameraFragment
 import kz.batana.beautysoft.home.HomeFragment
 import kz.batana.beautysoft.map.MapFragment
 import kz.batana.beautysoft.profile.ProfileFragment
@@ -33,7 +34,7 @@ class RootActivity : AppCompatActivity() {
                 selectedFragment = SearchFragment()
             }
             R.id.navigation_camera -> {
-                selectedFragment = MapFragment()
+                selectedFragment = CameraFragment()
             }
             R.id.navigation_map -> {
                 selectedFragment = MapFragment()

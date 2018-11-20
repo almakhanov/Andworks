@@ -15,8 +15,11 @@ class LoginActivity : AppCompatActivity() {
         setContentView(R.layout.activity_login)
 
         button_login_sign_in.setOnClickListener{
-            if(edit_text_sign_in_username.text.toString() == "admin" && edit_text_sign_in_password.text.toString() == "q")
+            if(edit_text_sign_in_username.text.toString() == "admin" && edit_text_sign_in_password.text.toString() == "q"){
                 startActivity(Intent(this, RootActivity::class.java))
+                finish()
+            }
+
             else
                 Toast.makeText(this, "Неверное имя пользователя или пароль!", Toast.LENGTH_SHORT).show()
         }
