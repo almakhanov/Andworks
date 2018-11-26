@@ -24,6 +24,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    compileOptions {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+    }
 }
 
 dependencies {
@@ -72,6 +76,10 @@ dependencies {
 
     //65k functions
     implementation 'com.android.support:multidex:1.0.3'
+
+    implementation 'android.arch.persistence.room:runtime:1.1.1'
+    kapt "android.arch.persistence.room:compiler:1.1.1"
+    implementation 'android.arch.persistence.room:rxjava2:1.1.1'
 }
 
 apply plugin: 'com.google.gms.google-services'

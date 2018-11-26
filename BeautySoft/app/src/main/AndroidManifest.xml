@@ -27,7 +27,7 @@
         tools:ignore="GoogleAppIndexingWarning">
         <activity android:name=".auth.LoginActivity" />
         <activity android:name=".auth.RegistrationActivity" />
-        <activity android:name=".home.news_details.NewsDetailsActivity" />
+        <activity android:name=".home.institution_details.InstitutionDetailsActivity" />
         <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,12 +1,7 @@
-/*
- * Copyright (c) DAR Ecosystem 2018.
- *
- * Created by sough on 14/08/2018.
- */
-
-package kz.batana.khanproject
+package kz.batana.beautysoft.core.util
 
 import android.util.Log
+import kz.batana.beautysoft.BuildConfig
 
 /**
  * Handle Logging in app
@@ -14,7 +9,9 @@ import android.util.Log
 object Logger {
 
     fun msg(tag: String, msg: Any?) {
-        Log.i(tag, "$msg")
+        if (BuildConfig.DEBUG) {
+            Log.i(tag, "$msg")
+        }
     }
 
     fun msg(msg: Any?) {
@@ -23,5 +20,9 @@ object Logger {
 
     fun api(msg: String?) {
         msg("API", "$msg")
+    }
+
+    fun test(whereRYouTesting: String?, msg: String?){
+        msg("accepted", "$whereRYouTesting : $msg")
     }
 }

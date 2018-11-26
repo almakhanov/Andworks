@@ -13,9 +13,9 @@ import android.view.ViewGroup
 import kotlinx.android.synthetic.main.fragment_popular.*
 import kz.batana.beautysoft.R
 import kz.batana.beautysoft.core.entity.Salon
-import kz.batana.beautysoft.home.news_details.NewsDetailsActivity
-import kz.batana.khanproject.Logger
-import kz.batana.lab3.core.Constants
+import kz.batana.beautysoft.core.util.Constants
+import kz.batana.beautysoft.core.util.Logger
+import kz.batana.beautysoft.home.institution_details.InstitutionDetailsActivity
 import java.io.Serializable
 
 class PopularFragment : Fragment(), SalonsAdapter.NewsItemClicked {
@@ -85,7 +85,7 @@ class PopularFragment : Fragment(), SalonsAdapter.NewsItemClicked {
     }
 
     override fun onItemClicked(salon: Salon) {
-        val intent = Intent(activity, NewsDetailsActivity::class.java)
+        val intent = Intent(activity, InstitutionDetailsActivity::class.java)
         intent.putExtra(Constants.SALONS, salon as Serializable)
         startActivity(intent)
         Logger.msg("accepted", "clicked -> $salon")
