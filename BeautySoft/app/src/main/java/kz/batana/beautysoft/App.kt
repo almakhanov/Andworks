@@ -8,7 +8,7 @@ package kz.batana.beautysoft
 
 import android.app.Application
 import com.facebook.drawee.backends.pipeline.Fresco
-import kz.batana.khanproject.Logger
+import kz.batana.beautysoft.core.util.Logger
 import org.koin.android.ext.android.startKoin
 
 /**

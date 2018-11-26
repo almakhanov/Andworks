@@ -1,7 +1,7 @@
 package kz.batana.beautysoft.home.popular
 
+import kz.batana.beautysoft.core.util.BasePresenter
 import kz.batana.beautysoft.home.HomeContract
-import kz.darlogistics.courier.core.util.BasePresenter
 
 class PopularPresenter(val repository: HomeContract.HomeRepository)
     :HomeContract.PopularPresenter, BasePresenter<HomeContract.PopularView>(){

@@ -12,7 +12,7 @@ import kz.batana.beautysoft.local_storage.bounds.*
     CustomerPhotoId::class,
     CustomerProductIds::class,
     CustomerSessionIds::class,
-    
+
     Feedback::class,
 
     Institution::class,

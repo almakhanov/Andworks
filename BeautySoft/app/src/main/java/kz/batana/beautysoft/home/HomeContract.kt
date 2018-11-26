@@ -1,15 +1,15 @@
 package kz.batana.beautysoft.home
 
-import kz.darlogistics.courier.core.util.IPresenter
-import kz.darlogistics.courier.core.util.IView
+import kz.batana.beautysoft.core.util.IPresenter
+import kz.batana.beautysoft.core.util.IView
 
 interface HomeContract {
 
-    interface PopularView: IView<PopularPresenter>{
+    interface PopularView: IView<PopularPresenter> {
 
     }
 
-    interface PopularPresenter: IPresenter<PopularView>{
+    interface PopularPresenter: IPresenter<PopularView> {
 
     }
 
