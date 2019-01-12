@@ -13,11 +13,15 @@ import java.util.ArrayList;
 public class OthelloAdapter extends BaseAdapter {
 
     private final Context mContext;
-    private final ArrayList<Cell> cells;
+    private ArrayList<Cell> cells;
 
     public OthelloAdapter(Context context, ArrayList<Cell> cells) {
         this.mContext = context;
         this.cells = cells;
+    }
+
+    public void draw(ArrayList<Cell> list){
+        cells = list;
     }
 
     @Override
