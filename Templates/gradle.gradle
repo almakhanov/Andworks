@@ -59,3 +59,465 @@ dependencies {
     api project(':uiLibrary')
     api project(':umeng_social_library')
 }
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    ext.kotlin_version = '1.2.60'
+    ext.compileSdk_version = 27
+    ext.targetSdk_version = 27
+    ext.minSdk_version = 14
+    ext.buildTools_version = '27.0.3'
+    ext.supportLibrary_version ='27.1.1'
+    ext.retrofit_version = '2.4.0'
+    ext.okhttp_version = '3.11.0'
+    ext.gson_version = '2.8.5'
+    ext.rxJava_version = '2.1.10'
+    ext.rxAndroid_version = '2.0.2'
+    ext.koin_version = '1.0.0-beta-4'
+
+    repositories {
+        google()
+        jcenter()
+        maven { url 'https://maven.fabric.io/public' }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.3.0'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath 'io.fabric.tools:gradle:1.26.1'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+////////////////////////////////////////////////////////////////////////
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'io.fabric'
+
+repositories {
+    maven { url 'https://maven.fabric.io/public' }
+}
+
+androidExtensions {
+    experimental = true
+}
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "kz.darlogistics.courier2"
+        minSdkVersion 15
+        targetSdkVersion 28
+        buildToolsVersion '27.0.3'
+        versionCode 13
+        versionName "1.0.8"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+    }
+
+    signingConfigs {
+        prod {
+            storeFile file(DAR_ECO_RELEASE_STORE_FILE)
+            storePassword DAR_ECO_RELEASE_STORE_PASSWORD
+            keyAlias DAR_ECO_RELEASE_KEY_ALIAS
+            keyPassword DAR_ECO_RELEASE_KEY_PASSWORD
+        }
+
+        rc {
+            storeFile file('../debug/dar_eco_debug.keystore')
+            storePassword 'android'
+            keyAlias 'androiddebugkey'
+            keyPassword 'android'
+        }
+    }
+
+    buildTypes {
+        debug {
+            applicationIdSuffix ".debug"
+            resValue "string", "app_name", "DL Доставка DEV"
+            buildConfigField "String", "DAR_API", '"http://10.8.5.209/"'
+            buildConfigField "Integer", "API_VERSION", '3'
+        }
+        rc {
+            minifyEnabled false
+            debuggable true
+            signingConfig signingConfigs.rc
+            applicationIdSuffix ".rc"
+            buildConfigField "String", "DAR_API", '"http://darlogistics.kz/"'
+            buildConfigField "Integer", "API_VERSION", '3'
+            resValue "string", "app_name", "DL Доставка RC"
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.prod
+            buildConfigField "String", "DAR_API", '"http://darlogistics.kz/"'
+            buildConfigField "Integer", "API_VERSION", '3'
+            resValue "string", "app_name", "DL Доставка"
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:cardview-v7:28.0.0'
+    implementation 'com.android.support:design:28.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation "org.koin:koin-android:${koin_version}"
+    implementation "io.reactivex.rxjava2:rxjava:${rxJava_version}"
+    implementation "io.reactivex.rxjava2:rxandroid:${rxAndroid_version}"
+    implementation "com.squareup.okhttp3:okhttp:${okhttp_version}"
+    implementation "com.squareup.okhttp3:logging-interceptor:${okhttp_version}"
+    implementation "com.squareup.retrofit2:retrofit:${retrofit_version}"
+    implementation "com.squareup.retrofit2:converter-gson:${retrofit_version}"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:${retrofit_version}"
+    implementation "com.google.code.gson:gson:${gson_version}"
+    implementation 'android.arch.persistence.room:runtime:1.1.1'
+    kapt "android.arch.persistence.room:compiler:1.1.1"
+    implementation 'android.arch.persistence.room:rxjava2:1.1.1'
+    implementation 'com.shawnlin:number-picker:2.4.6'
+    implementation('com.crashlytics.sdk.android:crashlytics:2.9.5@aar') {
+        transitive = true
+    }
+}
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+buildscript {
+    ext.kotlin_version = '1.3.10'
+    repositories {
+        jcenter()
+        // 1
+        mavenCentral()
+        google()
+    }
+    dependencies {
+        //2.3.
+        classpath 'com.android.tools.build:gradle:3.2.1'
+        // 2
+        //classpath 'me.tatarka:gradle-retrolambda:3.2.3'
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+        classpath 'me.tatarka:gradle-retrolambda:3.2.5'
+        classpath 'com.getkeepsafe.dexcount:dexcount-gradle-plugin:0.8.2'
+        classpath 'com.google.gms:google-services:4.0.1'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        mavenCentral()
+        // google arch
+        maven { url 'https://maven.google.com' }
+        maven {
+            url = 'https://oss.sonatype.org/content/repositories/snapshots'
+        }
+        google()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+////////////////////////////////////////////////////////////////////////
+buildscript {
+    repositories {
+        maven { url 'https://maven.fabric.io/public' }
+    }
+
+    dependencies {
+        classpath 'io.fabric.tools:gradle:1.+'
+    }
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+apply plugin: 'com.google.gms.google-services'
+
+repositories {
+    maven { url 'https://maven.fabric.io/public' }
+    jcenter()
+    mavenCentral()
+    google()
+}
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion '28.0.3'
+
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    configurations.all {
+        resolutionStrategy.force 'com.google.code.findbugs:jsr305:1.3.9'
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        disable 'MissingTranslation'
+    }
+
+    defaultConfig {
+        applicationId "infinit.vtb"
+        minSdkVersion 19
+        targetSdkVersion 27
+        versionCode 3
+        versionName "1.1.8"
+        vectorDrawables.useSupportLibrary = true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+        javaCompileOptions {
+            annotationProcessorOptions {
+                includeCompileClasspath = true
+                arguments = ['resourcePackageName': 'infinit.vtb']
+            }
+        }
+        renderscriptTargetApi 27
+        renderscriptSupportModeEnabled true
+
+        externalNativeBuild {
+            cmake {
+                cppFlags "-frtti -fexceptions"
+            }
+        }
+    }
+
+    signingConfigs {
+        releaseConfig {
+            storeFile file("VTBRelease.jks")
+            storePassword("InfinItazkm1221!")
+            keyAlias "VTB release"
+            keyPassword "InfinItazkm1221!"
+        }
+        debugConfig {
+            storeFile file("VTBDebug.jks")
+            storePassword("InfinItazkm1221!")
+            keyAlias "VTB debug"
+            keyPassword "InfinItazkm1221!"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            debuggable false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            proguardFiles 'proguard-retrolambda.pro'
+            proguardFiles 'proguard-facebook-fresco.pro'
+            proguardFiles 'proguard-models.pro'
+            proguardFiles 'proguard-samsung.pro'
+            proguardFiles 'proguard-fresco.pro'
+            proguardFiles 'proguard-my.pro'
+            proguardFiles 'proguard-image-picker.pro'
+            signingConfig signingConfigs.releaseConfig
+        }
+        debug {
+            debuggable true
+            applicationIdSuffix ".debug"
+//            signingConfig signingConfigs.debugConfig
+//            applicationVariants.all { variant ->
+//                variant.outputs.each { output ->
+//                    project.ext { appName = 'VTB' }
+//                    def formattedDate = new Date().format('dd-MM-yy')
+//                    def newName = output.outputFile.name
+//                    newName = newName.replace("app-", "") //"MyAppName" -> I set my app variables in the root project
+//                    newName = newName.replace("-debug", "_" + formattedDate)
+//                    output.outputFile = new File(output.outputFile.parent, newName)
+//                }
+//            }
+        }
+    }
+
+    externalNativeBuild {
+        cmake {
+            path "CMakeLists.txt"
+        }
+    }
+
+    flavorDimensions "default"
+
+    productFlavors {
+        bankTest {
+            applicationIdSuffix ".banktest"
+            resValue "string", "app_name", "ВТБ банк тест"
+            buildConfigField 'String', 'API_URL', '\"https://89.218.17.44:8080/\"'
+            buildConfigField 'String', 'WEBSOCKET', '\"wss://89.218.17.44:8080/\"'
+            buildConfigField 'int', 'TIMEOUT', '100000'
+            buildConfigField 'String', 'Login', '\"7052663335\"'
+            buildConfigField 'String', 'Pass', '\"Friday2018@\"'
+        }
+
+        bankPredProd {
+            applicationIdSuffix ".bankpredprod"
+            resValue "string", "app_name", "ВТБ банк Пред Прод."
+            buildConfigField 'String', 'API_URL', '\"https://89.218.17.46:8080/\"'
+            buildConfigField 'String', 'WEBSOCKET', '\"wss://89.218.17.46:8080/\"'
+            buildConfigField 'int', 'TIMEOUT', '100000'
+            buildConfigField 'String', 'Login', '\"7777477888\"'
+            buildConfigField 'String', 'Pass', '\"Test#2018\"'
+        }
+
+        bankProd {
+            resValue "string", "app_name", "ВТБ"
+            buildConfigField 'String', 'API_URL', '\"https://89.218.17.45:8080/\"'
+            buildConfigField 'String', 'VERSION', '\"0.0.1\"'
+            buildConfigField 'String', 'WEBSOCKET', '\"wss://89.218.17.45:8080/\"'
+            buildConfigField 'int', 'TIMEOUT', '100000'
+            buildConfigField 'String', 'Login', '\"7772500193\"'
+            buildConfigField 'String', 'Pass', '\"Aass1212!!\"'
+        }
+
+        bagDaulet {
+            applicationIdSuffix ".bagdaulet"
+            resValue "string", "app_name", "ВТБ багдаулет "
+            buildConfigField 'String', 'API_URL', '\"http://192.168.102.79:8080/\"'
+            buildConfigField 'String', 'WEBSOCKET', '\"ws://192.168.102.79:8080/\"'
+            buildConfigField 'int', 'TIMEOUT', '100000'
+            buildConfigField 'String', 'Login', '\"7777777777\"'
+            buildConfigField 'String', 'Pass', '\"111\"'
+        }
+    }
+}
+
+def AAVersion = '4.5.0'
+def SupportVers = '27.1.0'
+def espressoVers = '2.2'
+
+configurations.all {
+    resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+        def requested = details.requested
+        if (requested.group == 'com.android.support') {
+            if (!requested.name.startsWith("multidex")) {
+                details.useVersion '27.1.0'
+            }
+        }
+    }
+}
+
+dependencies {
+    annotationProcessor "org.androidannotations:androidannotations:$AAVersion"
+    implementation "org.androidannotations:androidannotations-api:$AAVersion"
+    implementation fileTree(include: '*.jar', dir: 'libs')
+    androidTestImplementation("com.android.support.test.espresso:espresso-core:$espressoVers", {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    androidTestImplementation "com.android.support.test.espresso:espresso-contrib:$espressoVers"
+    testImplementation "org.mockito:mockito-core:2.19.0"
+
+
+
+    implementation "com.android.support:design:$SupportVers"
+    implementation "com.android.support:support-v4:$SupportVers"
+    implementation "com.android.support:appcompat-v7:$SupportVers"
+    implementation "com.android.support:cardview-v7:$SupportVers"
+    implementation "com.android.support:recyclerview-v7:$SupportVers"
+    implementation "com.android.support:support-v13:$SupportVers"
+    implementation "com.android.support:animated-vector-drawable:$SupportVers"
+    implementation 'com.google.firebase:firebase-appindexing:10.2.0'
+    implementation 'com.google.android.gms:play-services-maps:10.2.0'
+
+    implementation 'com.jakewharton:butterknife:8.4.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.9.1'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.6.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.0.0-beta4'
+    implementation 'com.google.code.gson:gson:2.7'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    implementation 'io.reactivex.rxjava2:rxjava:2.0.1'
+    implementation 'com.jakewharton.retrofit:retrofit2-rxjava2-adapter:1.0.0'
+    implementation 'com.afollestad.material-dialogs:core:0.9.4.1'
+    implementation 'com.afollestad.material-dialogs:commons:0.9.4.1'
+    testImplementation 'junit:junit:4.12'
+    implementation 'ru.egslava:MaskedEditText:1.0.5'
+    annotationProcessor 'org.projectlombok:lombok:1.12.6'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
+    compileOnly 'org.projectlombok:lombok:1.12.6'
+    implementation 'com.android.support:multidex:1.0.1'
+    implementation 'net.frakbot:jumpingbeans:1.3.0'
+    implementation 'com.balysv:material-ripple:1.0.2'
+
+    def daggerVer = 2.15 // or latest version
+
+    implementation "com.google.dagger:dagger:$daggerVer"
+    implementation "com.google.dagger:dagger-android-support:$daggerVer"
+    annotationProcessor "com.google.dagger:dagger-android-processor:$daggerVer"
+    annotationProcessor "com.google.dagger:dagger-compiler:$daggerVer"
+
+    implementation 'com.facebook.fresco:fresco:1.5.0'
+    implementation 'com.facebook.fresco:animated-gif:1.5.0'
+    implementation "com.facebook.fresco:imagepipeline-okhttp3:1.5.0"
+    implementation 'org.ocpsoft.prettytime:prettytime:4.0.1.Final'
+    implementation 'org.bouncycastle:bcprov-jdk16:1.45'
+    implementation 'com.neovisionaries:nv-websocket-client:2.3'
+    implementation 'commons-codec:commons-codec:1.3'
+
+    implementation 'com.chaos.view:pinview:1.3.0'
+    implementation 'com.andrognito.pinlockview:pinlockview:2.1.0'
+    implementation 'uk.co.chrisjenx:calligraphy:2.2.0'
+    implementation 'fr.tvbarthel.blurdialogfragment:lib:2.2.0'
+    implementation 'com.scottyab:rootbeer-lib:0.0.6'
+    implementation 'fr.avianey.com.viewpagerindicator:library:2.4.1.1@aar'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation('com.crashlytics.sdk.android:crashlytics:2.6.8@aar') {
+        transitive = true
+    }
+    implementation files('libs/sdk-v1.0.0.jar')
+    implementation files('libs/pass-v1.2.6.jar')
+    implementation 'com.droidninja:filepicker:2.1.5'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.8.0'
+    implementation "com.github.bumptech.glide:okhttp3-integration:4.8.0"
+
+    implementation 'com.firebase:firebase-jobdispatcher:0.8.5'
+
+    implementation 'com.google.android.gms:play-services:11.0.1'
+    implementation 'com.google.android.gms:play-services-maps:11.0.1'
+    implementation 'com.google.firebase:firebase-core:11.0.1'
+    implementation 'com.google.firebase:firebase-messaging:11.0.1'
+    implementation 'com.google.firebase:firebase-iid:11.0.1'
+
+    // mamory leack
+    debugImplementation 'com.squareup.leakcanary:leakcanary-android:1.6.1'
+    releaseImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.6.1'
+    implementation 'org.jetbrains:annotations:15.0'
+
+    implementation 'com.github.siyamed:android-shape-imageview:0.9.+@aar'
+}
+
+apply plugin: 'com.getkeepsafe.dexcount'
+
