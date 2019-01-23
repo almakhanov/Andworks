@@ -1,0 +1,28 @@
+git add .
+git commit -m "message"
+git push
+git push --set-upstream origin develop //when pushing the first time on a new branch
+
+git checkout develop //just checkout 
+git checkout -b develop //checkout to new branch with uncommited changes
+
+git pull //pull from current branch
+git pull origin develop //pull from another branch
+
+git merge develop
+git merge --abort
+
+git tag -a v1.4.2 -m "my version 1.4.2"
+
+//////////////////////////////////////////////////////////////////////////////////
+//Connection reset by 18.205.93.1 port 22 
+//fatal: the remote end hung up unexpectedly 
+//fatal: the remote end hung up unexpectedly
+//QUICK SOLUTION
+git config --global http.postBuffer 524288000
+//OR
+//Execute the following in the command line before executing the Git command:
+set GIT_TRACE_PACKET=1
+set GIT_TRACE=1
+set GIT_CURL_VERBOSE=1
+//////////////////////////////////////////////////////////////////////////////////
