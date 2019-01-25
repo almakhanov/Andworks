@@ -12,6 +12,8 @@ git pull origin develop //pull from another branch
 git merge develop
 git merge --abort
 
+git reset --hard //discard all changes
+
 //////////////////////////////////////////////////////////////////////////////////
 
 git tag -a v1.4.2 -m "my version 1.4.2"
