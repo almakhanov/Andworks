@@ -17,6 +17,14 @@ git merge --abort
 git reset --hard //discard all changes
 
 //////////////////////////////////////////////////////////////////////////////////
+REBASE:
+//pull actual develop then checkout to feature branch  
+git rebase develop
+//in case of conflicts, solve them and set command
+git rebase --continue
+git pull
+git push // then send merge request
+//////////////////////////////////////////////////////////////////////////////////
 
 git tag -a v1.4.2 -m "my version 1.4.2"
 git push --tags
